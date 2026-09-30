@@ -33,9 +33,17 @@ Proyek simulasi website company profile menggunakan HTML, CSS, PHP Native, MySQL
 
 ---
 
+## Penjelasan Penyelesaian Merge Conflict
+
+Merge conflict disengaja dibuat pada branch `conflict-navbar` dan branch `main` saat mengubah label menu navigasi pada file `includes/header.php`.
+- **Penyebab:** Branch `conflict-navbar` mengubah label menjadi `"Tentang Kami"`, sedangkan branch `main` mengubah baris yang sama menjadi `"Tentang Kampus"`.
+- **Penyelesaian:** Conflict diselesaikan secara manual dengan memilih label final `"Profil"`, menghapus seluruh marker conflict (`<<<<<<<`, `=======`, `>>>>>>>`), melakukan `git add includes/header.php`, dan menyelesaikan commit merge.
+
+---
+
 ## Riwayat Praktikum Git
 
-- **Remote Repository:** `https://github.com/raneeshaa/telkom-company-profile.git`
+- **Remote Repository:** https://github.com/raneeshaa/telkom-company-profile-109062500018.git
 - **Release Tag:** `v1.0.0`
 
 > *Seluruh konten institusi pada proyek ini bersifat simulasi untuk keperluan praktikum.*
